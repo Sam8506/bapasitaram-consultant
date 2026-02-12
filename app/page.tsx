@@ -27,7 +27,7 @@ export default function Home() {
     // Create mailto link with form data
     const subject = `Contact from ${formData.name}`;
     const body = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
-    const mailtoLink = `mailto:info@bapasitaram.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+    const mailtoLink = `mailto:bapasitaramconsultant780@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
 
     // Open default email client
     window.location.href = mailtoLink;
@@ -89,20 +89,20 @@ export default function Home() {
       type: "Structural",
       year: "2026",
     },
-    { name: "Highway Infrastructure Upgrade", type: "Civil", year: "2023" },
-    { name: "Commercial Tower Design", type: "MEP", year: "2024" },
+    { name: "Highway Infrastructure Upgrade", type: "Civil", year: "2025" },
+    { name: "Commercial Tower Design", type: "MEP", year: "2025" },
     {
       name: "Residential Community Planning",
       type: "Project Management",
-      year: "2023",
+      year: "2024",
     },
   ];
 
   const stats = [
-    { value: "150+", label: "Projects Completed" },
+    { value: "30+", label: "Projects Completed" },
     { value: "15+", label: "Years Experience" },
     { value: "98%", label: "Client Satisfaction" },
-    { value: "25+", label: "Expert Engineers" },
+    { value: "10+", label: "Expert Engineers" },
   ];
 
   return (
@@ -178,7 +178,7 @@ export default function Home() {
             <h1 className="font-display text-6xl md:text-7xl lg:text-8xl font-bold text-navy-900 mb-6 leading-tight">
               Engineering
               <br />
-              <span className="text-gold-600">Excellence</span>
+              <span className="text-gold-600 text-5xl md:text-6xl lg:text-7xl">Consultant</span>
             </h1>
           </motion.div>
 
@@ -188,8 +188,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="font-body text-xl md:text-2xl text-navy-600 mb-12 max-w-3xl mx-auto leading-relaxed"
           >
-            Transforming visions into reality through innovative engineering
-            solutions and unwavering commitment to precision
+            Transforming visions into reality through innovative consultancy services and precision engineering
           </motion.p>
 
           <motion.div
@@ -255,7 +254,7 @@ export default function Home() {
               Our <span className="text-gold-500">Services</span>
             </h2>
             <p className="font-body text-xl text-slate-300 max-w-3xl mx-auto">
-              Comprehensive engineering solutions tailored to your project needs
+              Comprehensive engineering consultancy solutions tailored to your project needs
             </p>
           </motion.div>
 
@@ -377,7 +376,7 @@ export default function Home() {
               <div className="space-y-6 font-body text-lg text-navy-600 leading-relaxed">
                 <p>
                   Bapasitaram Consultant stands at the forefront of engineering
-                  innovation, delivering world-class solutions that shape the
+                  consultant, delivering world-class solutions that shape the
                   infrastructure of tomorrow.
                 </p>
 
@@ -397,14 +396,12 @@ export default function Home() {
 
               <div className="mt-12 flex flex-wrap gap-4">
                 <div className="px-6 py-3 bg-navy-900 text-white font-semibold rounded-none">
-                  ISO 9001 Certified
+                  Sustainable Solutions
                 </div>
                 <div className="px-6 py-3 bg-gold-600 text-white font-semibold rounded-none">
                   Award Winning
                 </div>
-                <div className="px-6 py-3 border-2 border-navy-900 text-navy-900 font-semibold rounded-none">
-                  Sustainable Solutions
-                </div>
+                
               </div>
             </motion.div>
 
@@ -479,21 +476,14 @@ export default function Home() {
                       <div className="text-gold-500 text-xl">📍</div>
                       <div>
                         <div className="font-semibold text-white">Address</div>
-                        <div>ADDRESS</div>
+                        <div>Ahmedabad, India</div>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
                       <div className="text-gold-500 text-xl">📧</div>
                       <div>
                         <div className="font-semibold text-white">Email</div>
-                        <div>info@bapasitaram.com</div>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-4">
-                      <div className="text-gold-500 text-xl">📞</div>
-                      <div>
-                        <div className="font-semibold text-white">Phone</div>
-                        <div>+91 90999 07345</div>
+                        <a href="mailto:bapasitaramconsultant780@gmail.com">bapasitaramconsultant780@gmail.com</a>
                       </div>
                     </div>
                   </div>
@@ -585,26 +575,7 @@ export default function Home() {
               © 2026 Bapasitaram Consultant. All rights reserved.
             </div>
 
-            <div className="flex gap-6">
-              <a
-                href="#"
-                className="text-slate-400 hover:text-gold-500 transition-colors"
-              >
-                LinkedIn
-              </a>
-              <a
-                href="#"
-                className="text-slate-400 hover:text-gold-500 transition-colors"
-              >
-                Twitter
-              </a>
-              <a
-                href="#"
-                className="text-slate-400 hover:text-gold-500 transition-colors"
-              >
-                Facebook
-              </a>
-            </div>
+        
           </div>
         </div>
       </footer>
